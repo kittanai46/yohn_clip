@@ -32,3 +32,6 @@ data class VideoWithStatus(
     val sent: Boolean,
     val sentAtMs: Long?,
 )
+
+/** ผลการคัดลอกครั้งล่าสุด ใช้แสดงแผ่น "คัดลอกเสร็จแล้ว" */
+data class ExportSummary(val files: Int, val bytes: Long, val days: Int, val failed: Int)

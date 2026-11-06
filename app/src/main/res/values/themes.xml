@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- พื้นหน้าต่างตอนเปิดแอป ให้ตรงกับพื้นจอใน Compose ไม่กระพริบสีขาว -->
+    <style name="Theme.YohnClip" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:windowBackground">#F6F6F7</item>
+    </style>
+</resources>
